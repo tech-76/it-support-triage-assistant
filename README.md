@@ -7,8 +7,9 @@ This project demonstrates practical IT support workflow automation using Python,
 ## Live demo
 
 ```text
-[
-](https://huggingface.co/spaces/1kvsh/it-support-triage-assistant)```
+
+(https://huggingface.co/spaces/1kvsh/it-support-triage-assistant)
+```
 
 ## Project status
 
