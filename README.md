@@ -84,7 +84,7 @@ it-support-triage-assistant/
 │   ├── roadmap.md
 │   └── case-study.md
 └── screenshots/
-    └── add-screenshots-here.md
+    └── screenshots.md
 ```
 
 ## How to run locally
