@@ -6,10 +6,8 @@ This project demonstrates practical IT support workflow automation using Python,
 
 ## Live demo
 
-Add your Hugging Face Space link here:
-
 ```text
-https://huggingface.co/spaces/ikvsh/it-support-triage-assistant
+https://huggingface.co/spaces/1kvsh/it-support-triage-assistant
 ```
 
 ## Project status
