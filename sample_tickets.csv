@@ -1,0 +1,7 @@
+ticket_id,requester,company,issue_summary,category,urgency,affected_users,device_type,operating_system,error_message,recent_changes
+1001,Test User,Demo Company,User cannot sign in to Microsoft 365 after password reset,Microsoft 365,High,1 user,Laptop,Windows 11,Error says MFA required,Password changed yesterday
+1002,Office Admin,Demo Company,Multiple users are not receiving business email after a domain change,Auto-detect,Critical,Multiple users,Multiple devices,Microsoft 365,Senders are getting bounce messages,DNS records were updated this morning
+1003,Employee,Demo Company,User clicked a suspicious email link and entered their password,Security,Critical,1 user,Laptop,Windows 11,No error message,Issue happened 20 minutes ago
+1004,Website Owner,Demo Company,Company website is not loading after changing nameservers,DNS,High,Entire business,Website/domain,Web/DNS,DNS_PROBE_FINISHED_NXDOMAIN,Nameservers were changed last night
+1005,Staff Member,Demo Company,Wi-Fi keeps disconnecting from one laptop every few minutes,Networking,Medium,1 user,Laptop,Windows 11,Browser says no internet,Started after moving to another office area
+1006,Staff Member,Demo Company,Computer is very slow after startup and apps take a long time to open,Windows,Medium,1 user,Laptop,Windows 10,No error code,Several startup apps were installed recently
