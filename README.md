@@ -1,23 +1,17 @@
-# IT Support Triage Assistant
+IT Support Triage Assistant
 
 A service-desk intake tool that turns IT support requests into structured troubleshooting reports.
 
 This project demonstrates practical IT support workflow automation using Python, Gradio, and Hugging Face Spaces. The assistant helps categorize support requests, assign priority, detect escalation needs, generate troubleshooting steps, and produce technician-ready notes and downloadable reports.
 
-## Live demo
 
-```text
-
-(https://huggingface.co/spaces/1kvsh/it-support-triage-assistant)
-```
-
-## Project status
+Project status
 
 Working prototype: **v2.1**
 
 The current version is designed for portfolio, recruiter review, service-desk workflow demonstration, and early small-business support intake testing.
 
-## Key features
+Key features
 
 - Single-ticket IT issue analysis
 - Auto-detection for support categories
@@ -36,7 +30,7 @@ The current version is designed for portfolio, recruiter review, service-desk wo
 - Sample ticket file for testing
 - Privacy warning for sensitive information
 
-## Supported categories
+Supported categories
 
 The assistant supports the following ticket categories:
 
@@ -49,7 +43,7 @@ The assistant supports the following ticket categories:
 - Security
 - General IT
 
-## Example use cases
+Example use cases
 
 - Microsoft 365 login issue
 - Outlook password popup
@@ -61,7 +55,7 @@ The assistant supports the following ticket categories:
 - Hardware or peripheral issue
 - General IT support intake
 
-## Tech stack
+Tech stack
 
 - Python
 - Gradio
@@ -70,7 +64,7 @@ The assistant supports the following ticket categories:
 - Markdown report generation
 - Rule-based triage logic
 
-## Repository structure
+Repository structure
 
 ```text
 it-support-triage-assistant/
@@ -88,7 +82,7 @@ it-support-triage-assistant/
     └── screenshots.md
 ```
 
-## How to run locally
+How to run locally
 
 Clone the repository:
 
@@ -111,7 +105,7 @@ python app.py
 
 Open the local Gradio URL shown in the terminal.
 
-## How to deploy on Hugging Face Spaces
+How to deploy on Hugging Face Spaces
 
 1. Create a new Hugging Face Space.
 2. Choose **Gradio** as the SDK.
@@ -125,7 +119,7 @@ Open the local Gradio URL shown in the terminal.
 5. Test the Single Ticket tab first.
 6. Test the Bulk CSV tab using `sample_tickets.csv`.
 
-## Hugging Face Space metadata
+Hugging Face Space metadata
 
 If using this README directly inside Hugging Face Spaces, add this metadata block to the very top of the README:
 
@@ -144,13 +138,13 @@ short_description: IT ticket triage reports.
 
 The `short_description` must stay under the Hugging Face character limit.
 
-## Privacy and safety reminder
+Privacy and safety reminder
 
 Do not enter passwords, MFA codes, recovery codes, private keys, payment information, customer personal information, or confidential business data.
 
 This assistant is a triage and documentation tool. It does not replace an authorized technician, administrator, cybersecurity professional, legal advisor, or business approval process.
 
-## Limitations
+Limitations
 
 - This version uses structured rule-based logic, not a live AI model API.
 - It does not connect to a ticketing system yet.
@@ -174,11 +168,11 @@ Planned improvements include:
 - Optional LLM-based reasoning layer
 - Integration with ticketing tools
 
-## Portfolio summary
+Portfolio summary
 
 **IT Support Triage Assistant** is a service-desk workflow project that shows practical IT support documentation, triage logic, escalation awareness, and deployment of a working Python/Gradio application on Hugging Face Spaces.
 
-## Suggested GitHub topics
+Suggested GitHub topics
 
 ```text
 python
