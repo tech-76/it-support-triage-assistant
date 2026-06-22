@@ -9,7 +9,7 @@ This project demonstrates practical IT support workflow automation using Python,
 Add your Hugging Face Space link here:
 
 ```text
-https://huggingface.co/spaces/YOUR-USERNAME/it-support-triage-assistant
+https://huggingface.co/spaces/ikvsh/it-support-triage-assistant
 ```
 
 ## Project status
